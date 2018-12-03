@@ -1,0 +1,44 @@
+.compared-card {
+  border: solid #DB2A7D 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  word-wrap: break-word;
+  margin: 20px;
+  padding: 15px;
+  height: 275px;
+  color: #760091;
+  box-shadow: 4px 4px 4px black;
+  background-color: #fffadc;
+  font-family: arial;
+  border-radius: 10px;
+}
+
+button {
+  border: solid #DB2A7D 2px;
+  border-radius: 10px;
+  background-color: rgb(217, 162, 233);
+  padding: 5px 10px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px grey;
+  transition: transform 0.4s;
+
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+  background-color: rgb(163, 87, 187);
+}
+
+button:active {
+  background-color: black;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}

@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+@import url(_variables.scss);
+@import url(_Card.scss);
+@import url(_CardContainer.scss);
+@import url(_Header.scss);
+@import url(_ComparisonContainer.scss);
+@import url(_ComparisonCard.scss);
+@import url(_SearchBar.scss);
