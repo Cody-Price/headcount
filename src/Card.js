@@ -12,7 +12,7 @@ const Card = (props) => {
   }
 
   return(
-    <div className={classBorder} onClick={() => displaySelected(district)}>
+    <div className={props.border || 'district-card blue'} onClick={() => displaySelected(district)}>
       <h3 className="card-title">{district.location}</h3>
       <ul>
         {

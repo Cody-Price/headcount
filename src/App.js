@@ -38,16 +38,7 @@ class App extends Component {
   displaySelected = (clickedCard) => {
     const helper = new DistrictRepository(incomingData);
     const clickedCompare = helper.findByName(clickedCard.location)
-    if (!clickedCompare.selected) {
-      clickedCompare.selected = true;
-    } else {
-      clickedCompare.selected = false;
-    }
-    if (!clickedCard.selected) {
-      clickedCard.selected = true;
-    } else {
-      clickedCard.selected = false;
-    }
+
     if(!this.state.compared1) {
       this.setState({
         compared1: clickedCompare
@@ -86,7 +77,10 @@ class App extends Component {
                               comparison={this.state.comparedCard}
                               displaySelected={this.displaySelected}
                               clearCompare={this.clearCompare} />
-        <CardContainer data={this.state.data} displaySelected={this.displaySelected} />
+        <CardContainer  data={this.state.data} 
+                        displaySelected={this.displaySelected} 
+                        compared1={this.state.compared1}
+                        compared2={this.state.compared2} />
       </div>
     );
   }

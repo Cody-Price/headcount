@@ -1,0 +1,898 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    displaySelected={[Function]}
+    district={
+        Object {
+            "location": "ACADEMY 20",
+            "selected": false,
+            "stats": Object {
+              "2004": 0.302,
+              "2005": 0.267,
+              "2006": 0.354,
+              "2007": 0.392,
+              "2008": 0.385,
+              "2009": 0.39,
+              "2010": 0.436,
+              "2011": 0.489,
+              "2012": 0.479,
+              "2013": 0.488,
+              "2014": 0.49,
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3
+          className="card-title"
+>
+          ACADEMY 20
+</h3>,
+        <ul>
+          <li
+                    className="less-than-half"
+          >
+                    2004
+                    : 
+                    0.302
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2005
+                    : 
+                    0.267
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2006
+                    : 
+                    0.354
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2007
+                    : 
+                    0.392
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2008
+                    : 
+                    0.385
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2009
+                    : 
+                    0.39
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2010
+                    : 
+                    0.436
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2011
+                    : 
+                    0.489
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2012
+                    : 
+                    0.479
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2013
+                    : 
+                    0.488
+          </li>
+          <li
+                    className="less-than-half"
+          >
+                    2014
+                    : 
+                    0.49
+          </li>
+</ul>,
+      ],
+      "className": "district-card",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "ACADEMY 20",
+          "className": "card-title",
+        },
+        "ref": null,
+        "rendered": "ACADEMY 20",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="less-than-half"
+>
+              2004
+              : 
+              0.302
+</li>,
+            <li
+              className="less-than-half"
+>
+              2005
+              : 
+              0.267
+</li>,
+            <li
+              className="less-than-half"
+>
+              2006
+              : 
+              0.354
+</li>,
+            <li
+              className="less-than-half"
+>
+              2007
+              : 
+              0.392
+</li>,
+            <li
+              className="less-than-half"
+>
+              2008
+              : 
+              0.385
+</li>,
+            <li
+              className="less-than-half"
+>
+              2009
+              : 
+              0.39
+</li>,
+            <li
+              className="less-than-half"
+>
+              2010
+              : 
+              0.436
+</li>,
+            <li
+              className="less-than-half"
+>
+              2011
+              : 
+              0.489
+</li>,
+            <li
+              className="less-than-half"
+>
+              2012
+              : 
+              0.479
+</li>,
+            <li
+              className="less-than-half"
+>
+              2013
+              : 
+              0.488
+</li>,
+            <li
+              className="less-than-half"
+>
+              2014
+              : 
+              0.49
+</li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2004",
+                ": ",
+                0.302,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2004",
+              ": ",
+              0.302,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2005",
+                ": ",
+                0.267,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2005",
+              ": ",
+              0.267,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2006",
+                ": ",
+                0.354,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2006",
+              ": ",
+              0.354,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2007",
+                ": ",
+                0.392,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2007",
+              ": ",
+              0.392,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2008",
+                ": ",
+                0.385,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2008",
+              ": ",
+              0.385,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2009",
+                ": ",
+                0.39,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2009",
+              ": ",
+              0.39,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2010",
+                ": ",
+                0.436,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2010",
+              ": ",
+              0.436,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2011",
+                ": ",
+                0.489,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2011",
+              ": ",
+              0.489,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2012",
+                ": ",
+                0.479,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2012",
+              ": ",
+              0.479,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "10",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2013",
+                ": ",
+                0.488,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2013",
+              ": ",
+              0.488,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "11",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "2014",
+                ": ",
+                0.49,
+              ],
+              "className": "less-than-half",
+            },
+            "ref": null,
+            "rendered": Array [
+              "2014",
+              ": ",
+              0.49,
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3
+            className="card-title"
+>
+            ACADEMY 20
+</h3>,
+          <ul>
+            <li
+                        className="less-than-half"
+            >
+                        2004
+                        : 
+                        0.302
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2005
+                        : 
+                        0.267
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2006
+                        : 
+                        0.354
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2007
+                        : 
+                        0.392
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2008
+                        : 
+                        0.385
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2009
+                        : 
+                        0.39
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2010
+                        : 
+                        0.436
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2011
+                        : 
+                        0.489
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2012
+                        : 
+                        0.479
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2013
+                        : 
+                        0.488
+            </li>
+            <li
+                        className="less-than-half"
+            >
+                        2014
+                        : 
+                        0.49
+            </li>
+</ul>,
+        ],
+        "className": "district-card",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ACADEMY 20",
+            "className": "card-title",
+          },
+          "ref": null,
+          "rendered": "ACADEMY 20",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="less-than-half"
+>
+                2004
+                : 
+                0.302
+</li>,
+              <li
+                className="less-than-half"
+>
+                2005
+                : 
+                0.267
+</li>,
+              <li
+                className="less-than-half"
+>
+                2006
+                : 
+                0.354
+</li>,
+              <li
+                className="less-than-half"
+>
+                2007
+                : 
+                0.392
+</li>,
+              <li
+                className="less-than-half"
+>
+                2008
+                : 
+                0.385
+</li>,
+              <li
+                className="less-than-half"
+>
+                2009
+                : 
+                0.39
+</li>,
+              <li
+                className="less-than-half"
+>
+                2010
+                : 
+                0.436
+</li>,
+              <li
+                className="less-than-half"
+>
+                2011
+                : 
+                0.489
+</li>,
+              <li
+                className="less-than-half"
+>
+                2012
+                : 
+                0.479
+</li>,
+              <li
+                className="less-than-half"
+>
+                2013
+                : 
+                0.488
+</li>,
+              <li
+                className="less-than-half"
+>
+                2014
+                : 
+                0.49
+</li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2004",
+                  ": ",
+                  0.302,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2004",
+                ": ",
+                0.302,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2005",
+                  ": ",
+                  0.267,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2005",
+                ": ",
+                0.267,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2006",
+                  ": ",
+                  0.354,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2006",
+                ": ",
+                0.354,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2007",
+                  ": ",
+                  0.392,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2007",
+                ": ",
+                0.392,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2008",
+                  ": ",
+                  0.385,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2008",
+                ": ",
+                0.385,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2009",
+                  ": ",
+                  0.39,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2009",
+                ": ",
+                0.39,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2010",
+                  ": ",
+                  0.436,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2010",
+                ": ",
+                0.436,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2011",
+                  ": ",
+                  0.489,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2011",
+                ": ",
+                0.489,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2012",
+                  ": ",
+                  0.479,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2012",
+                ": ",
+                0.479,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "10",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2013",
+                  ": ",
+                  0.488,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2013",
+                ": ",
+                0.488,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "11",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "2014",
+                  ": ",
+                  0.49,
+                ],
+                "className": "less-than-half",
+              },
+              "ref": null,
+              "rendered": Array [
+                "2014",
+                ": ",
+                0.49,
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
